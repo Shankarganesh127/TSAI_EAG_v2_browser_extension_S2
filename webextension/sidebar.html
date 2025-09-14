@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Summarizer Sidebar</title>
+  <style>
+    body { font-family: Arial, sans-serif; width: 300px; }
+    textarea { width: 100%; height: 100px; }
+    #summary { margin-top: 10px; white-space: pre-wrap; }
+    button { margin: 5px 0; }
+  </style>
+</head>
+<body>
+  <h2>Webpage Summarizer</h2>
+  <textarea id="content" placeholder="Webpage content will appear here..."></textarea>
+  <button id="summarize">Summarize</button>
+  <div id="summary"></div>
+  <button id="exportWord">Export as Word</button>
+  <button id="exportPDF">Export as PDF</button>
+  <script src="popup.js"></script>
+</body>
+</html>
